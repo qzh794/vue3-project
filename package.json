@@ -1,0 +1,47 @@
+{
+  "name": "vue3-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "eslint src",
+    "fix": "eslint src --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\""
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.6",
+    "fast-glob": "^3.2.12",
+    "mockjs": "^1.1.0",
+    "node-sass": "^9.0.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.36",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "qs": "^6.11.2",
+    "sass": "^1.63.2",
+    "sass-loader": "^13.3.1",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.8",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.3.2",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.14.1",
+    "jsdom": "^22.0.0",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.5",
+    "vite-plugin-mock": "^2.9.6",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vitest": "^0.31.0"
+  }
+}
